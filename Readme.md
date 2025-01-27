@@ -48,6 +48,7 @@ Also a GUI Version is available. Just start HeicConverterGui.exe.
 
 ![GUI](doc/gui_example.png)
 
+![GUI](doc/gui_example_dark.png)
 ## Installation
 
 ### Windows
@@ -80,6 +81,7 @@ Install the dependencies, navigate with a console to the source dir and run the 
 ~~~~
 python -m PyInstaller --onefile --console heicConverter.py
 python -m PyInstaller --onefile --windowed heicConverterGui.py
+pyinstaller.exe --onefile --noconsole  --add-data "ht.png;." --icon=.\ht.ico .\heicConverterGui_Dark.py
 ~~~~
 
 ## Remarks
