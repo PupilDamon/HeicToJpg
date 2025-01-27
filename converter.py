@@ -63,8 +63,9 @@ def convert_heic_file(source_file, target_file, overwrite, remove):
             exif_dict = piexif.load(image.info["exif"])
 
             # Update exif data with orientation and datetime
-            exif_dict["0th"][piexif.ImageIFD.DateTime] = date.strftime("%Y:%m:%d %H:%M:%S")
-            exif_dict["0th"][piexif.ImageIFD.Orientation] = 1
+            #exif_dict["0th"][piexif.ImageIFD.DateTime] = date.strftime("%Y:%m:%d %H:%M:%S")
+            #exif_dict["0th"][piexif.ImageIFD.Orientation] = 1
+            exif_dict['Exif'][41729] = b'1'
             exif_bytes = piexif.dump(exif_dict)
 
             # Save image as jpeg
