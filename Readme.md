@@ -93,5 +93,5 @@ https://stackoverflow.com/questions/54395735/how-to-work-with-heic-image-file-ty
 
 ![Example](doc/example.png)
 
-/*[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JBK73YUVW7MGW&source=url)
-*/
+
+<!-- [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JBK73YUVW7MGW&source=url) -->
